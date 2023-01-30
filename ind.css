@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: black;
+}
+
+#center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ul {
+    list-style: none;
+    display: inline-block;
+}
+
+ul li {
+    width: 25px;
+    height: 25px;
+    margin: 8px 0;
+}
+
+ul li.one {
+    background: #0080ff;
+}
+ul li.two {
+    background: #0ea7a5;
+}
+ul li.three {
+    background: #50c878;
+}
+ul li.four {
+    background: #ffd700;
+}
+ul li.five {
+    background: #fa7a35;
+}
+ul li.six {
+    background: #e24666;
+}
+ul li.seven {
+    background: #b53389;
+}
+ul li.eight {
+    background: #708090;
+}
+ul li.nine {
+    background: #918e85;
+}
